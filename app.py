@@ -30,7 +30,7 @@ if "financial_goals" not in st.session_state:
     st.session_state.financial_goals = []
 
 platform_rules = {"max_length": 4096}  # You can adjust this value
-GROQ_API_KEY = "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"
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 def init_groq_chain():
     """Initialize Groq model with LangChain"""
