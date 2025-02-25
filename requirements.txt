@@ -1,0 +1,12 @@
+streamlit
+langchain_groq
+langchain_core
+langchain.schema
+pandas
+numpy
+plotly
+datetime
+re
+os
+dotenv
+langchain
